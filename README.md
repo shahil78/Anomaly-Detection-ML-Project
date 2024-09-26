@@ -7,6 +7,7 @@ Objective:
 The main goal of this project is to detect machine breakdowns by identifying anomalies in the data. The dataset consists of 18,000+ rows, where each row represents a set of machine readings. The label (y) indicates whether an anomaly is present (1 = anomaly, 0 = no anomaly).
 
 Project Structure:
+
 *) Data Preparation:
 - Missing Value Treatment
 - Duplicate Row Check
@@ -33,11 +34,14 @@ Models Used:
 - Naive Bayes: A simple probabilistic classifier, useful for making predictions quickly.
 - Logistic Regression: Useful for interpreting relationships between the predictors and the outcome.
 
-Performance: Each model was evaluated using multiple metrics:
+Performance: 
+
+Each model was evaluated using multiple metrics:
 - Random Forest: Accuracy improved to 100% after hyperparameter tuning.
 - KNN: Accuracy of 98% after tuning.
 - Naive Bayes: Accuracy of 79% after tuning.
 - Logistic Regression: Accuracy of 89% with good precision and recall.
 
 Conclusion:
+
 AnomaData is a powerful tool for predictive maintenance, leveraging multiple machine learning models to detect anomalies in real-time. This project can be customized to fit different industrial applications to predict and prevent costly machine breakdowns.
