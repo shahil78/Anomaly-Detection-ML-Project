@@ -42,7 +42,7 @@ Performance:
 Each model was evaluated using multiple metrics:
 
 - Random Forest: Accuracy improved to 100% after hyperparameter tuning.
-- KNN: Accuracy of 98% after tuning.
+- KNN: Accuracy of 99% after tuning.
 - Naive Bayes: Accuracy of 79% after tuning.
 - Logistic Regression: Accuracy of 89% with good precision and recall.
 
